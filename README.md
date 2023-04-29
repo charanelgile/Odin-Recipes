@@ -6,5 +6,10 @@ Simple project showcasing the Basics of HTML.
 
 ## Skills Demonstrated:
 ### Initial Start:
-- Paragraph
-- Ordered and Unordered Lists
+- Headings
+- Paragraphs
+- Images
+- Links
+- Lists
+    - Ordered Lists
+    - Unordered Lists
