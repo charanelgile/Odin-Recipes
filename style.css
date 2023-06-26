@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(222, 222, 222);
+}
+
+/* Home */
+.page-title {
+  padding: 30px 0 15px 0;
+  text-align: center;
+}
+
+.recipes-container {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.au-gratin-potatoes {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)),
+    url("https://www.allrecipes.com/thmb/Q4aeL3DDyIMxFdBuwk029cP6NPE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/creamy-au-gratin-potatoes-41092af1235e4bdab3cc9ebcf992dd2e.jpg");
+}
+
+.pasta-primavera-cauliflower {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("https://www.allrecipes.com/thmb/WwoOihLrDnZxznDMFP2RTTWn7b8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4579251-06ad510046514b4094eb5f29921ed32b.jpg");
+}
+
+.baked-chicken-schnitzel {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.4)),
+    url("https://www.allrecipes.com/thmb/Q-MU5NpyMAHw04NBws5T3-oKAf8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/244950-baked-chicken-schnitzle-kims-cooking-now-5349279-4x3-2257bfa79bd541dd8dbd692c2482b9fe.jpg");
+}
+
+.pasta-primavera-cauliflower,
+.baked-chicken-schnitzel,
+.au-gratin-potatoes {
+  color: white;
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+  font-size: x-large;
+  border-radius: 7px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Recipes */
+.articles-page-title {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 30px 20px 15px 20px;
+}
+
+.articles-page-title button a {
+  color: white;
+}
+
+.articles-page-title button {
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  margin-right: 30px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(244, 158, 37);
+}
+
+.article-recipes-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-color: white;
+  justify-content: space-evenly;
+}
+
+.article-recipes-img {
+  height: 350px;
+}
+
+.article-recipes-text {
+  margin-left: 40px;
+}
+
+.article-recipes-text > h2 {
+  color: rgb(244, 158, 37);
+}
+
+.description-section,
+.ingredients-section,
+.steps-section {
+  margin: 15px;
+}
+
+.ingredients-section ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.steps-section {
+  margin-bottom: 0;
+}
